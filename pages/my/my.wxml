@@ -13,6 +13,11 @@
             <text class="userinfo-nickname">{{userInfo.nickName}}</text>
         </block>
 
+        <block>
+          <button open-type="getUserInfo" lang="zh_CN" bindgetuserinfo="onGotUserInfo">获取用户信息</button>
+          <button open-type="openSetting" bindopensetting="fun123">打开授权设置页</button>
+        </block>
+
     </view>
 
 </view>

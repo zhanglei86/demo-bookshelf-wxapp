@@ -84,6 +84,16 @@ Page({
         }
     },
 
+    /**
+     * 新的
+     */
+    onGotUserInfo: function (e) {
+      console.log('detail is:', e.detail)
+      console.log('e.code is:', e.detail.errMsg)
+      console.log('e.userInfo2 is:', e.detail.userInfo)
+      console.log('e.rowData is:', e.detail.rawData)
+    },
+
     onLoad: function() {
         this.checkLoginStatus();
     },

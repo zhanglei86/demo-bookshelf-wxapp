@@ -9,7 +9,7 @@
 	},
 	"compileType": "miniprogram",
 	"libVersion": "2.0.8",
-	"appid": "[your miniProgram appid]",
+	"appid": "wx58ef5104f96113c1",
 	"projectname": "demo-bookshelf-wxapp",
 	"isGameTourist": false,
 	"condition": {
